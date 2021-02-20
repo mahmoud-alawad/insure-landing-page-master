@@ -1,0 +1,69 @@
+@import url(https://fonts.google.com/specimen/DM+Serif+Display);
+@import url(https://fonts.google.com/specimen/Karla);
+@import 'colors&sizes.scss';
+@import 'header.scss';
+@import 'how-we-work.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: $DarkViolet;
+}
+body{
+    font-size: 1rem;
+    font-family: 'Karla' 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.container__fullWidth{
+    max-width: 1660px;
+    width: 100%;
+}
+.btn,
+.btn__header{
+    color: $DarkViolet !important;
+    background-color: $white;
+    padding: 0.4rem 3rem;
+    border: 1.2px solid $DarkViolet;
+    display: block;
+    cursor: pointer;
+    align-self: center;
+
+    &:hover{
+        animation: button__animation 1s ease-in-out;
+     }
+     @keyframes button__animation {
+        16% {
+            -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+        }
+        33% {
+            -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
+        }
+        49% {
+            -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+        }
+        66% {
+            -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+        }
+     
+     
+        83% {
+            -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+        }
+        100% {
+            -webkit-transform: translateY(0);
+            transform: translateY(0);
+        }
+     }
+}

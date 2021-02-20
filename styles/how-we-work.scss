@@ -1,0 +1,63 @@
+@import 'colors&sizes.scss';
+
+
+.how_we_work{
+    margin-top: 6rem;
+    padding: 1rem;
+    position: relative;
+    & .title{
+        color: $DarkViolet;
+        font-size: 4rem;
+      
+
+        &::before{
+            content: "";
+            position: absolute;
+            top: 0px;
+            width: 7rem;
+            background-color: $DarkGrayishViolet;
+            height: 0.2rem;
+        }
+    }
+    
+    & .cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 2rem;
+
+        & .card{
+            padding: 2rem 0.4rem;
+            
+
+            & h2{
+             line-height: 2.7;
+             color: $DarkViolet;
+            }
+            & p{
+                width: 80%;
+                line-height: 17px;
+            }
+        }
+    }
+
+    & .showcase{
+      display: flex;
+      justify-content: space-around;
+      background-color: $DarkViolet;
+      height: 12.3rem;
+      position: relative;
+      & .bg__showcase{
+          position: absolute;
+          right: 0;
+          height: 100%;
+      }
+      & h1{
+          width: 19%;
+          color: $white;
+          align-self: center;
+      }
+      & .btn{
+          z-index: 5;
+      }
+    }
+}

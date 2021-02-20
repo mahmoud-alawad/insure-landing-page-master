@@ -1,0 +1,71 @@
+.how_we_work {
+  margin-top: 6rem;
+  padding: 1rem;
+  position: relative;
+}
+
+.how_we_work .title {
+  color: #2d2640;
+  font-size: 4rem;
+}
+
+.how_we_work .title::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 7rem;
+  background-color: #837d87;
+  height: 0.2rem;
+}
+
+.how_we_work .cards {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.how_we_work .cards .card {
+  padding: 2rem 0.4rem;
+}
+
+.how_we_work .cards .card h2 {
+  line-height: 2.7;
+  color: #2d2640;
+}
+
+.how_we_work .cards .card p {
+  width: 80%;
+  line-height: 17px;
+}
+
+.how_we_work .showcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #2d2640;
+  height: 12.3rem;
+  position: relative;
+}
+
+.how_we_work .showcase .bg__showcase {
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.how_we_work .showcase h1 {
+  width: 19%;
+  color: #fff;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.how_we_work .showcase .btn {
+  z-index: 5;
+}
+/*# sourceMappingURL=how-we-work.css.map */

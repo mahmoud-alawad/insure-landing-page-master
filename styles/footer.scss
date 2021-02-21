@@ -1,0 +1,55 @@
+ @import 'colors&sizes.scss';
+.footer{
+    background-color: $VeryLightGray;
+    padding: 2rem 0;
+    position: relative;
+    & .header{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        &::after{
+    content: "";
+    width: 100%;
+    background-color: $DarkViolet;
+    height: 1px;
+    position: absolute;
+    top: 100%;
+    opacity: 0.5;
+    margin-top: 2.3rem;
+        }
+
+        & .social__icons{
+            
+
+            & .footer__icon{
+                margin-left: 0.2rem;
+                cursor: pointer;
+                opacity: 0.8;
+              
+                &:hover{
+                opacity: 1;
+                color: $DarkViolet;
+
+                }
+            }
+        }
+    }
+  & .row{
+      width: 75%;
+     display: flex;
+     justify-content: space-between;
+    & .menu__links{
+        margin-top: 5rem;
+        & .first__link{
+            margin-bottom: 1.2rem;
+            opacity: 0.5;
+        }
+
+        & li{
+            line-height: 30px;
+        }
+    }
+  }
+    
+}

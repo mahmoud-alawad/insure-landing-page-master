@@ -4,6 +4,13 @@
   position: relative;
 }
 
+.footer .footer__pattern {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+
 .footer .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -55,7 +62,15 @@
   opacity: 0.5;
 }
 
+.footer .row .menu__links .first__link:hover {
+  border-bottom: 0.7px solid #2d2640;
+}
+
 .footer .row .menu__links li {
   line-height: 30px;
+}
+
+.footer .row .menu__links li:hover {
+  border-bottom: 0.7px solid #2d2640;
 }
 /*# sourceMappingURL=footer.css.map */

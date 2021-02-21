@@ -3,6 +3,12 @@
     background-color: $VeryLightGray;
     padding: 2rem 0;
     position: relative;
+    & .footer__pattern{
+        position: absolute;
+        left: 0;
+        top: 0;
+        pointer-events: none;
+    }
     & .header{
         display: flex;
         justify-content: space-between;
@@ -44,10 +50,17 @@
         & .first__link{
             margin-bottom: 1.2rem;
             opacity: 0.5;
+            &:hover{
+                border-bottom: 0.7px solid $DarkViolet;
+            }
         }
 
         & li{
             line-height: 30px;
+
+            &:hover{
+                border-bottom: 0.7px solid $DarkViolet;
+            }
         }
     }
   }

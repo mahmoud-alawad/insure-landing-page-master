@@ -79,7 +79,7 @@
 
 .how_we_work {
   margin-top: 6rem;
-  padding: 1rem;
+  padding: 5rem 1rem;
   position: relative;
 }
 .how_we_work .title {
@@ -111,6 +111,7 @@
   line-height: 17px;
 }
 .how_we_work .showcase {
+  margin-top: 4rem;
   display: flex;
   justify-content: space-around;
   background-color: #2d2640;
@@ -158,7 +159,7 @@
   margin-top: 2.3rem;
 }
 .footer .header .social__icons .footer__icon {
-  margin-left: 0.2rem;
+  margin-left: 0.7rem;
   cursor: pointer;
   opacity: 0.8;
 }
@@ -206,7 +207,7 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 1280px;
   margin: 0 auto;
 }
 

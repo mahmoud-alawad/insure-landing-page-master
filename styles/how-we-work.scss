@@ -3,7 +3,7 @@
 
 .how_we_work{
     margin-top: 6rem;
-    padding: 1rem;
+    padding: 5rem 1rem;
     position: relative;
     & .title{
         color: $DarkViolet;
@@ -41,6 +41,7 @@
     }
 
     & .showcase{
+        margin-top: 4rem;
       display: flex;
       justify-content: space-around;
       background-color: $DarkViolet;
